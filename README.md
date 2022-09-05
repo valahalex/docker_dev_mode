@@ -17,9 +17,9 @@ Among other things, I looked at the make package, which proved to be very handy 
 
 1. Create empty folder and go there
 2. Download the repo and unpack files in tentatively created storage
-3. Install dependencies $ npm i
-4. Inastall make $ npm install make 
-5. To launch server from docker using developer mode you need to run $ make run-dev
+3. Install dependencies $ `npm i`
+4. Inastall make $ `npm install make` 
+5. To launch server from docker using developer mode you need to run $ `make run-dev`
 6. You may be inputting changes into the project file and all it will be to appear wright in the server without rebuilding docker images
 
 # Language
