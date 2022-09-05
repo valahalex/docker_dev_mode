@@ -1,6 +1,8 @@
 
 # Main
 
+![GitHub last commit](https://img.shields.io/github/last-commit/valahalex/docker_dev_mode?color=blue&logoColor=blue&style=plastic)
+
 This is docker with develoer mode on.
 
 We have a simple site with one function - saving some text in the logs when entering data. 
@@ -19,13 +21,16 @@ Among other things, I looked at the make package, which proved to be very handy 
 2. Download the repo and unpack files in tentatively created storage
 3. Install dependencies 
 ```
-npm i
+> npm i
 ```
 4. Inastall make 
 ```
-npm install make
+> npm install make
 ``` 
-5. To launch server from docker using developer mode you need to run $ `make run-dev`
+5. To launch server from docker using developer mode you need to run
+```
+> make run-dev
+```
 6. You may be inputting changes into the project file and all it will be to appear wright in the server without rebuilding docker images
 
 # Language
